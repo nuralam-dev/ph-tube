@@ -14,17 +14,27 @@
   </head>
   <body>
     <header>
-      <nav class="w-11/12 mx-auto flex justify-between border-b-2 py-3">
+      <!-- home nav -->
+      <nav
+        class="w-11/12 mx-auto flex justify-between items-center border-b-2 py-5 border-[#17171720]"
+      >
         <div class="logo">
-            <img src="../asset/Logo.png" alt="">
+          <img class="w-[120px]" src="../asset/Logo.png" alt="" />
         </div>
         <div class="sort">
-            <button class="btn">Sort by view</button>
+          <button class="btn">Sort by view</button>
         </div>
         <div class="blog">
-            <button class="btn">Blog</button>
+          <button class="btn bg-[#FF1F3D] text-white">Blog</button>
         </div>
       </nav>
     </header>
+    <!-- category -->
+    <nav id="category-container" class="flex py-5 justify-center gap-5">
+      <button class="btn btn-sm btn bg-[#FF1F3D] text-white">All</button>
+    </nav>
+
+    <!-- script -->
+    <script src="../script/home.js"></script>
   </body>
 </html>
